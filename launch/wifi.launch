@@ -1,0 +1,5 @@
+ 
+<launch>
+    <node pkg="WifiSignalRos" type="WifiNode.py" name="wifi_publisher" output="screen">
+    </node>
+</launch>
