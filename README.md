@@ -9,3 +9,5 @@ The Package requires certain python dependencies. You can install them with
 ## Run the node via
 > roslaunch WifiSignalRos wifi.launch
 
+## Echo the data via the topic
+> rostopic echo /wifi_signal_status
